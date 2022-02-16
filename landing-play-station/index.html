@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Play Station Landing Page</title>
+</head>
+<body>
+   <div class="container">
+      <div class="navbar">
+         <img class="logo" src="images/logo.png">
+         <nav>
+            <ul id="menuList">
+               <li><a href="">Game Controllers</a></li>
+               <li><a href="">VR Accessories</a></li>
+               <li><a href="">Media Remotes</a></li>
+               <li><a href="">Others</a></li>
+            </ul>
+         </nav>
+         <img class="menu-icon" src="images/menu.png" id="toggle">
+      </div>
+      <div class="row ">
+         <div class="col1">
+            <h2>PS4 V2<br>Dualshock 4</h2>
+            <h3>Wireless Controller for PlayStation 4</h3>
+            <p>(Compatible/Generic)</p>
+            <h4>$32.50</h4>
+            <button type="button">Buy Now<img src="images/arrow.png"></button>
+         </div>
+         <div class="col2">
+            <img class="controller" src="images/controller.png">
+            <div class="color-box"></div>
+            <div class="add-btn">
+               <img src="images/add.png" alt="">
+               <p><small>Add to Card</small></p>
+            </div>
+         </div>
+      </div>
+      <div class="social-links">
+         <li><a href=""><img src="images/facebook.png" alt=""></a></li>
+         <li><a href=""><img src="images/instagram.png" alt=""></a></li>
+         <li><a href=""><img src="images/twitter.png" alt=""></a></li>
+      </div>
+   </div>
+   <script>
+      var menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      document.getElementById("toggle").addEventListener("click", function(){
+         if(menuList.style.maxHeight == "0px")
+         {
+            menuList.style.maxHeight = "130px";
+         }
+         else {
+            menuList.style.maxHeight = "0px";
+         }
+      })
+   </script>
+</body>
+</html>
