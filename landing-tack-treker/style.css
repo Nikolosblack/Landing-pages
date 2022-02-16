@@ -1,0 +1,165 @@
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Manrope', sans-serif;
+   margin: 0;
+}
+
+/* .main__page {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+} */
+
+.header {
+   display: flex;
+   align-items: center;
+   height: 73px;
+   border-bottom: 1px solid #a359f747;
+}
+
+.header-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+}
+
+.logo {
+   margin-right: 40px;
+}
+
+img {
+   display: block;
+}
+
+.nav {
+  
+   font-weight: bold;
+   font-size: 14px;
+   color: #18191F;
+}
+
+.nav__link {
+   margin-right: 32px;
+   color: #18191F;
+   text-decoration: none;
+}
+
+.nav__link:hover {
+   color: #8C30F5;
+}
+
+.nav__link:last-child {
+   margin-right: 0;
+}
+
+.buttons__wrapper {
+   display: flex;
+   margin-left: auto;
+}
+
+.appstore__item {
+   margin-left: 12px;
+}
+
+.main {
+
+}
+
+.main-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 197px;
+   padding-bottom: 197px;
+   padding: 197px 15px 197px 15px;
+}
+
+.main__content {
+   width: 540px;
+}
+
+.main__header { 
+   margin: 0;
+   margin-bottom: 16px;
+   font-weight: 800;
+   font-size: 72px;
+   line-height: 1.36;
+   color: #18191F;
+}
+
+.main__text {
+   margin-bottom: 32px;
+}
+
+.main__text p {
+   margin: 0;
+   font-size: 18px;
+   line-height: 1.78;
+}
+
+.btn {
+   display: inline-block;
+   height: 62px;
+   padding: 0 35px;
+   background: #8C30F5;
+   border-radius: 8px;
+   font-size: 20px;
+   line-height: 62px;
+   text-decoration: none;
+   text-align: center;
+   color: #FFFFFF;
+   opacity: .8;
+}
+
+.btn:hover {
+   opacity: 1;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+   height: 72px;
+   background: #0B0D17;
+   color: #D9DBE1;
+}
+
+.footer-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 15px;
+}
+
+.footer__copyright {
+   font-size: 14px;
+}
+
+.footer__copyright p {
+   margin: 0;
+}
+
+.footer__socials {
+   display: flex;
+}
+
+.footer__social__item {
+   margin-left: 16px;
+}
+
+.footer__social__item:hover {
+   opacity: .8;
+   background-color:#a359f747;
+   border-radius: 50%;
+}
+
+
+
